@@ -20,7 +20,11 @@ export interface Options {
    * @default ['hover', 'focus', 'touch']
    */
   triggers: Triggers;
-
+  /**
+   * Array of events triggering the popper.
+   * @default []
+   */
+  popperTriggers: Triggers;
   /**
    * Virtual padding in the `boundary` used to prevent the popper overflow (pixels).
    * @default 0
